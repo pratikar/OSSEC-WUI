@@ -307,7 +307,7 @@ if ($glb_debug == 1) {
     $nochartdata = "";
     $problem = 0;
 
-    if (fextension_loaded('pdo_mysql')) {
+    if (extension_loaded('pdo_mysql')) {
         $sqlmodule = "yes";
     } else {
         $problem = 1;
